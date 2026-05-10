@@ -5,14 +5,14 @@ import CalculatorG2 from "../pages/calculator/calculatorg2";
 import CalculatorG3 from "../pages/calculator/calculatorg3";
 import ResultPage from "../pages/result/result";
 import HistoryPage from "../pages/history/history";
-import SplashPage from "../pages/splash/splash"; 
+import SplashPage from "../pages/splash/splash";
 import CalculatorReversePresenter from "../pages/calculator/calculator-reverse-presenter";
-
+import { API_BASE_URL } from "../../config/api";
 
 type Gen = "G0" | "G2" | "G3";
 type Season = "Hujan" | "Kemarau";
 
-const API_URL = "https://apikentangpas.cloud/api/calculate";
+const API_URL = `${API_BASE_URL}/api/calculator`;
 const app = document.querySelector("#app") as HTMLElement;
 
 let overlayEl: HTMLElement | null = null;
