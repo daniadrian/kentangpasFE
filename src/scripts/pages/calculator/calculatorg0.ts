@@ -1,4 +1,3 @@
-import { API_URL } from "../../../config/api";
 type Season = "Hujan" | "Kemarau";
 class CalculatorG0 {
   constructor(private season: Season, private resetSpacing = false) {}

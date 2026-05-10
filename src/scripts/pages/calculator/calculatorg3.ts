@@ -1,4 +1,3 @@
-import { API_URL } from "../../../config/api";
 type Season = "Hujan" | "Kemarau";
 
 class CalculatorG3 {

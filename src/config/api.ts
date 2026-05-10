@@ -11,7 +11,7 @@ export const API_ENDPOINTS = {
 
   // Calculator endpoints
   CALCULATOR: {
-    GENERATE: `${API_BASE_URL}/api/calculator/generate`,
+    GENERATE: `${API_BASE_URL}/api/calculator`,
     REVERSE: `${API_BASE_URL}/api/calculator/reverse`,
     BASE: `${API_BASE_URL}/api/calculator`,
   },
