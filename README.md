@@ -167,7 +167,7 @@ Output: Estimasi luas lahan yang dapat ditanami
 ## Struktur Proyek
 
 ```
-kentangpasFE/
+bibitkuFE/
 ├── src/
 │   ├── config/
 │   │   └── api.ts                 # Konfigurasi endpoint API
