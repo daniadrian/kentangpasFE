@@ -1,6 +1,6 @@
 {
-  "name": "KentangPAS",
-  "short_name": "KentangPAS",
+  "name": "Bibitku",
+  "short_name": "Bibitku",
   "start_url": "/?source=pwa",
   "scope": "/",
   "display": "standalone",
